@@ -1,0 +1,79 @@
+.ba-container{
+	background:#E4C6A7;
+	padding:20px;
+	width: 80vh;
+	height: 80vh;
+	margin-top:10px;
+	margin: 5% auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.ba-desk {
+	border: 3px solid black;
+	position:relative;
+	width: 70vh;
+	height:70vh;
+}
+
+.ba-left-top, .ba-right-top, .ba-left-bottom, .ba-right-bottom {
+	position:absolute;
+	width:50%;
+	height:50%;
+}
+
+.ba-right-top {
+	top:0;
+	left:50%;
+}
+
+.ba-left-bottom {
+	top:50%;
+	left:0;
+}
+
+.ba-right-bottom {
+	top: 50%;
+	left: 50%;
+}
+
+.ba-quarter {
+	width:100%;
+	height:100%;
+	position:relative;
+}
+
+.ba-cell {
+	width:25%;
+	height:25%;
+	position:absolute;
+}
+
+.ba-cell-1, .ba-cell-3, .ba-cell-6, .ba-cell-8, .ba-cell-9, .ba-cell-11, .ba-cell-14, .ba-cell-16 {
+	background: black;
+}
+
+.ba-cell-2, .ba-cell-6, .ba-cell-10, .ba-cell-14 {
+	left:25%;
+}
+
+.ba-cell-3, .ba-cell-7, .ba-cell-11, .ba-cell-15 {
+	left:50%;
+}
+
+.ba-cell-4, .ba-cell-8, .ba-cell-12, .ba-cell-16 {
+	left:75%;
+}
+
+.ba-cell-5, .ba-cell-6, .ba-cell-7, .ba-cell-8 {
+	top:25%;
+}
+
+.ba-cell-9, .ba-cell-10, .ba-cell-11, .ba-cell-12 {
+	top:50%;
+}
+
+.ba-cell-13, .ba-cell-14, .ba-cell-15, .ba-cell-16 {
+	top:75%;
+}
